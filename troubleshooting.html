@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Troubleshooting - FRC 1334 Red Devils</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="error-styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Include the same navbar -->
+    </nav>
+
+    <section class="error-solutions">
+        <h2>Troubleshooting</h2>
+        <div class="search-container">
+            <input type="text" id="errorSearch" placeholder="Search for errors or solutions...">
+            <div class="filter-tags">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="vision">Vision</button>
+                <button class="filter-btn" data-filter="drivetrain">Drive Train</button>
+                <button class="filter-btn" data-filter="general">General</button>
+            </div>
+        </div>
+
+        <div class="error-grid">
+            <div class="error-card" data-category="vision">
+                <div class="error-header">
+                    <h3>PhotonVision Camera Calibration Failed</h3>
+                    <span class="error-tag">Vision</span>
+                </div>
+                <div class="error-content">
+                    <p class="error-description">Camera fails to calibrate during the initial setup...</p>
+                    <div class="solution-steps">
+                        <h4>Solution:</h4>
+                        <ol>
+                            <li>Check USB connection</li>
+                            <li>Verify camera resolution settings</li>
+                            <li>Restart PhotonVision service</li>
+                        </ol>
+                    </div>
+                    <div class="related-links">
+                        <a href="#">Official Documentation</a>
+                        <a href="#">Team Guide</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more error cards -->
+        </div>
+    </section>
+</body>
+</html> 

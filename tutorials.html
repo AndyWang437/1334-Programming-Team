@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tutorials - FRC 1334 Red Devils</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tutorial-styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Include the same navbar -->
+    </nav>
+    
+    <div class="breadcrumb">
+        <a href="index.html">Home</a> > Tutorials
+    </div>
+
+    <section class="tutorials-section">
+        <h2>Tutorials</h2>
+        <div class="search-container">
+            <input type="text" id="tutorialSearch" placeholder="Search tutorials...">
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="vision">Vision</option>
+                <option value="motion">Motion Control</option>
+                <option value="autonomous">Autonomous</option>
+            </select>
+        </div>
+
+        <div class="tutorial-grid">
+            <div class="tutorial-card" data-category="vision">
+                <h3>Setting Up Vision with AprilTags</h3>
+                <div class="tutorial-preview">
+                    <img src="assets/apriltag-preview.jpg" alt="AprilTag Setup">
+                    <p>Learn how to implement AprilTag detection using PhotonVision...</p>
+                </div>
+                <a href="tutorials/vision/apriltags.html" class="tutorial-link">View Tutorial</a>
+            </div>
+            <!-- Add more tutorial cards -->
+        </div>
+    </section>
+</body>
+</html> 
